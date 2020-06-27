@@ -29,13 +29,13 @@ router.get('/:id', (req, res, next) => {
     })
 })
 
-router.post('/:id', (req, res, next) => {
+router.post('/', (req, res, next) => {
     tasks.addTask(req.body)
     .then(task => {
         res.status(201).json(task);
     })
     .catch(err => {
-        nexr(err)
+        next(err)
     })
 })
 
