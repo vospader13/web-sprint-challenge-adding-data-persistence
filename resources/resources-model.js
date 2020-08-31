@@ -1,6 +1,6 @@
 const db = require("../data/config")
 
-function getResouces(){
+function getResources(){
     return db("resources")
 
 }
@@ -20,7 +20,7 @@ function addResource(resource){
 }
 
 module.exports = {
-    getResouces,
+    getResources,
     getByResourceId,
     addResource
 }

@@ -60,8 +60,6 @@ A foreign key.
 
 4. What do we need in order to have a _many to many_ relationship between two tables.
 
-You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
-
 We would need an intermediary table that holds foreign keys that reference the primary key on the related tables.
 
 ## Instructions
